@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "audit": "lighthouse http://127.0.0.1:8080/  --output html --output-path ./report.html && chromium-browser ./report.html"
+    "audit": "lighthouse https://jupige.github.io/pwa-angular-demo/  --output html --output-path ./report.html && chromium-browser ./report.html"
   },
   "private": true,
   "dependencies": {
